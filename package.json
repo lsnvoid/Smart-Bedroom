@@ -1,0 +1,29 @@
+{
+  "name": "smart-bedroom",
+  "version": "1.0.0",
+  "description": "Smart room with NodeMCU, Google Assistant and Alexa integration with free software. Add upto 8 devices for free",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lurisan/Smart-Bedroom.git"
+  },
+  "keywords": [
+    "smart-room",
+    "smart-house",
+    "iot",
+    "nodemcu",
+    "google-assistant",
+    "alexa",
+    "sinric-pro",
+    "smartnest"
+  ],
+  "author": "Md Nasirul Haque (https://lurisan.web.app)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lurisan/Smart-Bedroom/issues"
+  },
+  "homepage": "https://github.com/lurisan/Smart-Bedroom#readme"
+}
