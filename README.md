@@ -98,3 +98,28 @@ Visit respective websites for full user documentations:
 ## Examples by Authors
 > * See [SinricPro Examples](https://github.com/sinricpro/esp8266-esp32-sdk/tree/master/examples) on GitHub.
 > * See [SmartNest Examples](https://github.com/aososam/Smartnest/tree/master/Tutorials/Blink) on GitHub.
+
+---
+
+## Components List
+> * 1 unit of NodeMCU
+> * 2 units of LM7805S/TR 5V Regulator (SMD DPAK package)
+> * min 3, max 10 units (3 per RGB LED and 1 for single color LED) of n channel logic level power mosfet with low level gate trigger (preferabaly below 3V), example as follows:
+>> * AOD4184A / D4184 : 40V 50A
+>> * FR120N : 100v 9A
+>> * LR7843 : 30V 161A
+>> * P105n3LL : 30V 150A
+> * 4 units of 4 pin JST connector
+> * 1 unit of 2 pin JST connector
+> * 2 units of 2 pin screw terminals
+> * max 3 units of 12V +RGB LED strips (5050 led strip with 4 connections)
+> * max 1 unit of 12V warm white or cool white or any single color led strip (with 2 connections)
+> * 1 unit of power adapter with minimun of 12V 2A power output (amperage will increase with increase in number of LED strips, max cap will be based on power mosfet)
+
+---
+
+## Gerber File for PCB Fabrication
+> * PCB:
+>  ![PCB](images/pcb.png "PCB Image")
+> * Schematic:
+>  ![Schematic](images/schematic.png "Schematic Image")
