@@ -119,6 +119,9 @@ void startWifi()
   {
     digitalWrite(LED_BUILTIN, HIGH);
   }
+  
+  WiFi.setAutoReconnect(true);
+  WiFi.persistent(true);
   delay(500);
 }
 

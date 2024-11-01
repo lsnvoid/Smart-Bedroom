@@ -86,6 +86,8 @@ void startWifi() {
     Serial.println('I could not connect to the wifi network after 10 attempts \n');
   }
 
+  WiFi.setAutoReconnect(true);
+  WiFi.persistent(true);
   delay(500);
 }
 
